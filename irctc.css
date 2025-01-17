@@ -1,0 +1,327 @@
+*{
+    --bgc: rgb(47, 63, 117);
+    padding: 0;
+    margin: 0;
+     font-family: 'Quicksand Variable';
+}
+
+@font-face {
+    font-family: 'Quicksand Variable';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300 800;
+    src: url(https://cdn.jsdelivr.net/fontsource/fonts/quicksand:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  }
+  
+.head{
+    margin-left: 27px;
+    margin-right: 25px;
+    width: 100%;
+    height: 106px;
+    display: flex;
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+    width: 106px;
+    height: 106px;
+   
+    align-items:center;
+    justify-content: center;
+    box-sizing: border-box;
+    
+}
+.secondary-logo{
+    width: 80px;
+    height: 80px;
+    
+    
+}
+.nav_but{
+    margin-left: 170px;
+    margin-top: 15px;
+    font-size: 11px;
+    
+}
+.login{
+    height: 28px;
+    width: 56px;
+    background-color: rgb(47, 63, 117);
+    color: white;
+    font-weight:bolder;
+    border: none;
+    font-weight: bolder;
+}
+.main{
+    width: 1434px;
+    height: 636px;
+    background: url("./home_page_banner1.e6749c3d9698d1ac7608\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 7px 0px 0px;
+    padding: 40px 70px 0px;
+    box-sizing: border-box;  
+    
+}
+.form{
+    width:576px ;
+    background-color: #ffffff;
+    height:573.125px ;
+    left:65px;
+    MARGIN-TOP: -80PX;
+    display: flex;
+  box-sizing: border-box;
+    position: relative;
+    flex-direction: column;
+}
+.headbbuts{
+    display: flex; 
+    justify-content: space-between;font-family: 'Quicksand Variable' ;
+    
+
+}
+.pnrstatus{
+    background-color: rgb(47, 63, 117);
+    color: #fff;
+    height:20px ; 
+    display:flex ;
+    vertical-align: middle;
+   
+
+}
+
+
+.butimg1,.butimg2{
+   width: 60.59px;
+   height: 36px;
+   margin: 0px;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   background-color: rgb(47, 63, 117);
+   justify-content: center;
+   
+}
+.but1,.but2{
+    display: flex;
+    background-color: rgb(47, 63, 117);
+    width: 285px;
+    
+    height: 20px;
+  
+   
+}
+.butlabel1,.butlabel2{
+    padding: 8px 14px 8px 14px;
+    background-color:rgb(47, 63, 117);
+    height: 20px;
+    width: 257px;
+   
+
+}
+.butlabel1{
+    padding-right: 0;
+}
+.butlabel2{
+    padding-left: 0;
+}
+.bookticket{
+    width:546px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92px;
+    padding: 0 15px 0 15px;
+    background-color: #fff;
+    
+
+}
+.booktext{
+    text-align: center;
+    vertical-align:middle;
+    font-size: 30px;
+    color: rgb(47, 63, 117); 
+    font-weight: 990;
+    font-family: 'Quicksand Variable' ;
+    line-height: 82px;
+    
+
+}
+.stationdet{
+    display: flex;
+    padding: 0px 15px 0px 15px;
+    justify-content: space-between;
+    margin-left: -30px;
+    
+}
+.stadtiondetright{
+    display: flex;
+    flex-direction: column;
+   
+}
+.stadtiondetleft{
+    display: flex;
+    flex-direction: column;
+    padding-left:-120px
+}
+.boximg1{
+    height:36px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50px;
+ 
+
+}
+.frombox,.tobox,.qoutabox,.datebox,classbox{
+    display: flex;
+    margin-bottom: 40px;
+    
+}
+i{
+    height: 11.35px;
+    width: 14px;
+    color:var(--bgc);
+    display: block;
+    position: absolute;
+    margin-left: 50px;
+    font-size: 12px;
+
+}
+#home{
+    height: 18px;
+    width: 17px;
+}
+.fromtext{
+    width: 298.41px;
+    height: 40.85px;
+}
+.datebox,.classbox{
+    width: 204.58px;
+    height: 40.85px;
+    display: flex;
+    flex-direction: row;
+}
+#date{
+    width: 204.58px;
+    height: 40.86px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+.ricon{
+    height: 36px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -150px; pointer-events: none;
+
+}
+.datebox{
+    pointer-events: none;}
+
+
+    .checkboxs{
+        padding :0 15px;
+    color: var(--bgc);
+    margin-bottom: 40px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 600;
+    }
+    .buttons{
+        padding: 0 15px;
+        display: flex;
+        
+        justify-content: space-between;
+    }
+    .disha
+    {
+        width: 222.95px;
+        height: 35.5px;
+        background-color: #01bb0a;
+        border: none;
+        color: #fff;
+        border-radius: 4px;
+        font-family:"Quicksand Variable" ;
+        font-weight: bold;
+    }
+    .search{
+        height: 36px;
+        width: 110.75px;
+        background-color: #fb792b;
+        border: none;
+        color: #fff;
+        font-family:"Quicksand Variable" ;
+        font-weight: bold;
+        border-radius: 4px;
+    }
+  .indianrail{
+  
+    margin-left: 800px;
+    color: #213d77;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: "Body,Quicksand,sans-serif";
+    display: block;
+   
+  }
+  .subindian{
+    margin-left: 880px;
+    font-size: 1.5rem;
+    color: #213d77;
+    font-family: "Body,Quicksand,sans-serif";
+  }
+  .IRCTCEX{
+    width: 131.25px;
+    height: 28px;
+    background-color: rgb(47, 63, 117);
+    color: white;
+    font-weight:bolder;
+    border: none;
+    font-weight: bolder;
+  }
+  .headtable1{
+    padding: 5px;
+    font-family: "Quicksand Variable";
+    font-size: 11px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+   #fa-home{
+    width: 18px;
+    height: 18px;
+    
+  }
+  #faa-home{
+    margin-left: -10px;
+    font-size: 20px;
+    margin-top: -10px;
+  }
+  .alert{
+    color: red;
+  }#home{
+    display: flex;
+  }
+  .homeco{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+  }
+  .rightlogo{
+    display: flex;
+    width: 106px;
+    height: 106px;
+    align-items:center;
+    justify-content: center;
+    box-sizing: border-box;
+    
+}
+.right-logo{
+    width: 200px;
+    height: 80px;
+    margin-left: 100px;
+}
